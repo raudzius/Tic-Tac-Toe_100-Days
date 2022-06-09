@@ -20,8 +20,8 @@ html {
 body {
   margin: 0;
   font-family: 'Open-Sans', sans-serif;
-  color: var(--color-text);
-  background-color: var(--color-bg);
+  color: var(--color-black-100);
+  background-color: var(--color-purple-100);
 }
 
 #main-header {
