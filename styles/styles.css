@@ -11,9 +11,11 @@ html {
   --color-purple-100: rgb(247, 239, 247);
   --color-purple-200: rgb(243, 227, 255);
   --color-purple-300: rgb(230, 201, 252);
-  --color-purple-600: rgb(140, 0, 255);
-  --color-purple-700: rgb(94, 4, 168);
-  --color-purple-800: rgb(79, 10, 190);
+  --color-purple-400: rgb(215, 187, 247);
+  --color-purple-500: rgb(140, 0, 255);
+  --color-purple-600: rgb(94, 4, 168);
+  --color-purple-700: rgb(79, 10, 190);
+  --color-purple-800: rgb(50, 5, 87);
   --color-purple-900: rgb(47, 4, 82);
 }
 
@@ -25,7 +27,7 @@ body {
 }
 
 #main-header {
-  background-color: var(--color-purple-600);
+  background-color: var(--color-purple-500);
   color: var(--color-white-100);
   padding: 2rem 5%;
   text-align: center;
@@ -34,8 +36,8 @@ body {
 .btn {
   font: inherit;
   padding: 0.5rem 1.5rem;
-  background-color: var(--color-purple-600);
-  border: 1px solid var(--color-purple-600);
+  background-color: var(--color-purple-500);
+  border: 1px solid var(--color-purple-500);
   color: var(--color-white-100);
   border-radius: 4px;
   cursor: pointer;
@@ -48,8 +50,8 @@ body {
 }
 
 .btn:hover {
-  background-color: var(--color-purple-800);
-  border-color: var(--color-purple-800);
+  background-color: var(--color-purple-700);
+  border-color: var(--color-purple-700);
 }
 
 .btn-alt:hover {
